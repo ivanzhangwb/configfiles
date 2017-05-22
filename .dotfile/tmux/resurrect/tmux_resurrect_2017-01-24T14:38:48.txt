@@ -1,0 +1,19 @@
+pane	code	1	:tlive	0	:	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tlive	1	zsh	:
+pane	code	2	:tlivecore	1	:*	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tlive-core	1	zsh	:
+pane	code	3	:tliveconsole	0	:	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tlive-console	1	zsh	:
+pane	code	4	:dubbo	0	:	1	:/Users/ivanzhangwb/work/code/dubbo	1	zsh	:
+pane	code	5	:netty	0	:-	1	:/Users/ivanzhangwb/work/code/netty	1	zsh	:
+pane	config	1	:dotfile	0	:	1	:/Users/ivanzhangwb/.dotfile	1	zsh	:
+pane	config	2	:vim	0	:-	1	:/Users/ivanzhangwb/.dotfile/vim	1	zsh	:
+pane	config	3	:zsh	1	:*	1	:/Users/ivanzhangwb/.dotfile/zsh	1	zsh	:
+pane	mix	1	:zsh	1	:*	1	:/Users/ivanzhangwb/bin/useful-scripts	1	zsh	:
+window	code	1	0	:	b4c3,156x32,0,0,6
+window	code	2	1	:*	b4c5,156x32,0,0,8
+window	code	3	0	:	b4c6,156x32,0,0,9
+window	code	4	0	:	5a8f,156x32,0,0,10
+window	code	5	0	:-	5a90,156x32,0,0,11
+window	config	1	0	:	b4c4,156x32,0,0,7
+window	config	2	0	:-	5a91,156x32,0,0,12
+window	config	3	1	:*	5a92,156x32,0,0,13
+window	mix	1	1	:*	5a93,156x32,0,0,14
+state	code	mix

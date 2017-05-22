@@ -1,0 +1,21 @@
+pane	code	1	:tlivemanager	0	:#	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tlivemanager	1	zsh	:
+pane	code	2	:tlivecore	0	:	1	:	1	sudo	:sudo vi /etc/hosts
+pane	code	3	:tliveconsole	0	:	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tlive-console	1	zsh	:
+pane	code	4	:tlive	1	:*	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tlive	1	zsh	:
+pane	code	5	:zsh	0	:#-	1	:/Users/ivanzhangwb/logs	1	zsh	:
+pane	code	6	:dubbo	0	:#	1	:/Users/ivanzhangwb/work/code/dubbo	1	zsh	:
+pane	code	7	:netty	0	:	1	:/Users/ivanzhangwb/work/code/netty	1	zsh	:
+pane	mix	1	:mix	0	:	1	:/Users/ivanzhangwb/.dotfile/tmux/plugins/tmux-powerline/themes	1	zsh	:
+pane	mix	2	:document	0	:-	1	:/private/tmp/tmux-powerline_ivanzhangwb	1	zsh	:
+pane	mix	3	:daily-env	1	:*	1	:/Users/ivanzhangwb/Downloads	1	ssh	:ssh 100.69.207.170
+window	code	1	0	:#	abc0,131x40,0,0,3
+window	code	2	0	:	b5c1,173x42,0,0,4
+window	code	3	0	:	adc2,173x40,0,0,5
+window	code	4	1	:*	b5c3,173x42,0,0,6
+window	code	5	0	:#-	5b10,173x42,0,0,11
+window	code	6	0	:#	adc6,173x40,0,0,9
+window	code	7	0	:	570f,173x40,0,0,10
+window	mix	1	0	:	5b14,173x42,0,0,15
+window	mix	2	0	:-	5b15,173x42,0,0,16
+window	mix	3	1	:*	db16,173x42,0,0,27
+state	mix	code

@@ -1,0 +1,15 @@
+pane	11	1	:config	1	:*	1	:/Users/ivanzhangwb/work/code	1	zsh	:
+pane	code	1	:tlive	1	:*	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tlive/tlive-impl/src	1	zsh	:
+pane	code	2	:netty	0	:	1	:/Users/ivanzhangwb/Library/Logs/IntelliJIdea2016.3	1	zsh	:
+pane	code	3	:distruptor	0	:	1	:/Users/ivanzhangwb/work/code/disruptor	1	zsh	:
+pane	code	4	:tlive-core	0	:	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tlive-core	1	zsh	:
+pane	code	5	:daily	0	:-	1	:/Users/ivanzhangwb/work/code	1	ssh	:ssh 10.101.87.162
+pane	document	1	:tlive-docs	1	:*	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tlive-docs	1	zsh	:
+window	11	1	1	:*	dcd1,130x34,0,0,41
+window	code	1	1	:*	5b14,173x42,0,0,34
+window	code	2	0	:	5cd7,130x34,0,0,37
+window	code	3	0	:	5cd8,130x34,0,0,38
+window	code	4	0	:	dcd0,130x34,0,0,40
+window	code	5	0	:-	db12,173x42,0,0,42
+window	document	1	1	:*	5b16,173x42,0,0,36
+state	code	11

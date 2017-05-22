@@ -1,0 +1,70 @@
+# https://github.com/gpakosz/.tmux
+# (‑●‑●)> released under the WTFPL v2 license, by Gregory Pakosz (@gpakosz)
+# -- navigation ----------------------------------------------------------------
+# if you're running tmux within iTerm2
+#   - and tmux is 1.9 or 1.9a
+#   - and iTerm2 is configured to let option key act as +Esc
+#   - and iTerm2 is configured to send [1;9A -> [1;9D for option + arrow keys
+# then uncomment the following line to make Meta + arrow keys mapping work
+#set -ga terminal-overrides "*:kUP3=\e[1;9A,*:kDN3=\e[1;9B,*:kRIT3=\e[1;9C,*:kLFT3=\e[1;9D"
+
+
+# 设定绑定键
+unbind C-a
+unbind C-b
+set -g prefix C-Space
+bind Space send-prefix
+set -g prefix2 C-Space
+bind Space send-prefix -2
+
+#切换session
+#bind-key s switch -t %%
+setw -g aggressive-resize on
+
+# bind copy-mode key
+# 前缀键 + Space 键 进入拷贝模式
+bind Space copy-mode
+bind C-Space copy-mode
+
+# 拷贝模式拷贝的信息同时会进入到系统剪贴板上
+bind-key -t vi-copy y \
+  copy-pipe "reattach-to-user-namespace pbcopy"
+
+# 时钟样式
+tmux_conf_theme_clock_colour='#ffff00'  # light blue
+tmux_conf_theme_clock_style='24'
+
+
+# ------------------------------------------------------------------------------
+# this is the place to override or undo settings
+# 标题栏字样
+set -g set-titles-string '#h 🈲🔞 #S ● #I #W'
+
+# increase history size
+# 增加历史记录的行数 10000行. 历史记录可以理解为书的面页
+set -g history-limit 10000
+
+# force Vi mode
+# 强制VI 模式
+#   really you should export VISUAL or EDITOR environment variable, see manual
+set -g status-keys vi
+set -g mode-keys vi
+
+# move status line to top
+#set -g status-position top
+set-option -g status on
+set-option -g status-interval 2
+#set-option -g status-justify "centre"
+#set-option -g status-left-length 60
+#set-option -g status-right-length 90
+set-option -g status-left "#(~/.dotfile/tmux/plugins/tmux-powerline/powerline.sh left)"
+set-option -g status-right "#(~/.dotfile/tmux/plugins/tmux-powerline/powerline.sh right)"
+#设定windows列表的组装样式
+set-window-option -g window-status-fg "black"
+set-window-option -g window-status-bg "green"
+set-window-option -g window-status-current-format "#[fg=colour255, bg=colour56] 『#I 』: #W ™"
+
+# How to efficiently reorder windows in tmux?
+# http://unix.stackexchange.com/questions/151329/reorder-tmux-windows
+bind-key -n S-Left swap-window -t -1
+bind-key -n S-Right swap-window -t +1

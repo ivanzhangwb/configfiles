@@ -1,0 +1,31 @@
+pane	0	1	:zsh	1	:*	1	:/Users/ivanzhangwb/work/code	1	zsh	:
+pane	3	1	:zsh	1	:*	1	:/Users/ivanzhangwb/work/code	1	zsh	:
+pane	4	1	:zsh	1	:*	1	:/Users/ivanzhangwb/work/code	1	zsh	:
+pane	code	1	:tmallpush	0	:#	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tlivemanager	1	zsh	:
+pane	code	2	:cube	0	:#	1	:/Users/ivanzhangwb/bin	1	zsh	:
+pane	code	3	:tlive	0	:#	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tmallpush	1	zsh	:
+pane	code	4	:tmobctl	0	:#	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tmobctl	1	zsh	:
+pane	code	5	:dubbo	0	:#	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tmallhttp2apns	1	zsh	:
+pane	code	6	:baron	0	:	1	:/Users/ivanzhangwb/Downloads/odpscmd_public/bin	1	java	:/usr/bin/java -Dapple.awt.UIElement=true -Xms64m -Xmx512m -classpath ./../lib/mapreduce-api.jar:./../lib/*:./../conf/ com.aliyun.openservices.odps.console.ODPSConsole -I 11
+pane	code	7	:cube2	0	:#	1	:/Users/ivanzhangwb/work/code/tmall_wireless/cube	1	zsh	:
+pane	code	8	:tmallpush	1	:*	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tmallpush	1	zsh	:
+pane	code	9	:apns	0	:#-	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tmallhttp2apns	1	zsh	:
+pane	mix	1	:mix	0	:#	1	:/Users/ivanzhangwb/.dotfile/tmux/plugins/tmux-powerline/themes	1	zsh	:
+pane	mix	2	:document	0	:-	1	:/private/tmp/tmux-powerline_ivanzhangwb	1	zsh	:
+pane	mix	3	:daily-env	1	:*	1	:/Users/ivanzhangwb/work/code/tmall_wireless/message_docs	1	zsh	:
+window	0	1	1	:*	b13d,130x32,0,0,0
+window	3	1	1	:*	58d2,130x32,0,0,13
+window	4	1	1	:*	d8cf,130x32,0,0,20
+window	code	1	0	:#	58d8,130x32,0,0,19
+window	code	2	0	:#	b140,130x32,0,0,3
+window	code	3	0	:#	b141,130x32,0,0,4
+window	code	4	0	:#	b142,130x32,0,0,5
+window	code	5	0	:#	b143,130x32,0,0,6
+window	code	6	0	:	b144,130x32,0,0,7
+window	code	7	0	:#	58d0,130x32,0,0,11
+window	code	8	1	:*	58d3,130x32,0,0,14
+window	code	9	0	:#-	58d5,130x32,0,0,16
+window	mix	1	0	:#	b145,130x32,0,0,8
+window	mix	2	0	:-	b146,130x32,0,0,9
+window	mix	3	1	:*	58cf,130x32,0,0,10
+state	code	mix

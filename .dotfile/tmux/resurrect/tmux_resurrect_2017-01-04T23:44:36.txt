@@ -1,0 +1,7 @@
+pane	4	1	:vim	1	:*	1	:/Users/ivanzhangwb/.dotfile/vim/settings	1	vim	:vi ai
+pane	config	1	:dotfile	0	:-	1	:/Users/ivanzhangwb/.dotfile	1	zsh	:
+pane	config	2	:zsh	1	:*	1	:/Users/ivanzhangwb/work/code	1	zsh	:
+window	4	1	1	:*	e0d7,191x45,0,0,28
+window	config	1	0	:-	e7b1,143x39,0,0,22
+window	config	2	1	:*	e7b2,143x39,0,0,23
+state	4	

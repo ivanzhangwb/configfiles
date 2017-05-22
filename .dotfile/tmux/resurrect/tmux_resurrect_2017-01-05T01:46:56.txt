@@ -1,0 +1,7 @@
+pane	7	1	:zsh	1	:*	1	:/Users/ivanzhangwb/.dotfile/zsh/oh-my-zsh/custom/plugins/zsh-notify	1	zsh	:
+pane	config	1	:dotfile	0	:-	1	:/Users/ivanzhangwb/.dotfile	1	zsh	:
+pane	config	2	:zsh	1	:*	1	:/Users/ivanzhangwb/work/code	1	zsh	:
+window	7	1	1	:*	60d1,191x45,0,0,31
+window	config	1	0	:-	e7b1,143x39,0,0,22
+window	config	2	1	:*	e7b2,143x39,0,0,23
+state	7	

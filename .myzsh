@@ -1,0 +1,110 @@
+export SVN_EDITOR=vim
+export EDITOR=vim
+export LESS="${LESS}iXF"
+export GREP_COLOR='07;31'
+
+# =================================== 10转换16进制====================
+function hex(){
+  printf "$1 hex: '%x'\n" $1;  
+}
+
+function replace_version(){
+  current_version="$1"
+  new_version="$2"
+  echo "Replace currentVersion:$current_version  to newVersion:$new_version\n"
+  find . -name "pom.xml"  | xargs sed -i "" "s/${current_version}/${new_version}/g"
+  echo "Show Diff content.........\n"
+  find . -name "pom.xml"  | xargs git diff
+}
+
+# ========================================= 登录博客系统 ============================
+function blog(){
+  screen -R pub expect /Users/ivanzhangwb/bin/goblog 101.200.130.184 Ivanzhang09
+}
+
+# ============= Copy from https://github.com/oldratlee/useful-scripts/blob/master/c ================
+copy(){
+  if [ $# -eq 0 ]; then
+     teeAndCopy
+  else
+     "$@" | teeAndCopy
+  fi
+}
+
+# ====== Redirect output  & copy  ===============
+teeAndCopy(){
+  tee >(content="$(cat)";echo -n "$content" |pbcopy )
+}
+
+tmuxattach(){
+  echo "$@"
+  echo "tmux session list:\n" 
+  tmux list-session
+  tmux attach-session -t "$@"
+}
+
+# ======= 查找定义 ============
+ta() {
+  echo "type -a:\n"
+  type -a "$@"
+  echo "\nwhich -a:\n"
+  which -a "$@"
+}
+
+# ======================================== 快速查找 ==============================
+function fastgrep(){
+  grep --color=auto --exclude-dir=.cvs --exclude-dir=.git --exclude-dir=.hg --exclude-dir=.svn --exclude-dir=target --exclude-dir=build --exclude-dir=_site --exclude-dir=.idea --exclude-dir=taobao-tomcat --exclude=\*.ipr --exclude=\*.iml --exclude=\*.iws --exclude=\*.jar --exclude-dir=Pods "$@"
+}
+
+dotfile=$HOME/.dotfile/zsh/oh-my-zsh/custom/plugins/ivanzhangwb/ivanzhangwb.plugin.zsh
+
+# ============= 别名配置========================= 
+
+alias j6='export JAVA_HOME=$JAVA_6_HOME'
+alias -g ...='../..'
+alias -g ....='../../..'
+alias -g .....='../../../..'
+alias -g C='| wc -l'
+alias -g H='| head'
+alias -g L="| less"
+alias -g N="| /dev/null"
+alias -g S='| sort'
+alias -g G='| grep' # now you can do: ls foo G something
+alias -g aliyun='/Users/ivanzhangwb/work/code/aliyun'
+alias -g keynote='/Users/ivanzhangwb/work/keynote'
+
+# ================================tmux====================
+alias mt='tmux'
+alias te='vi ~/.tmux.conf.local'
+alias tes='vi ~/.tmux.conf'
+
+# ================================maven====================
+alias ms='mvn clean install -Dmaven.test.skip=true -DdownloadSources=true'
+alias md='mvn dependency:tree'
+alias mdeploy='mvn clean -Dmaven.test.skip=true deploy -U -DrepositoryId=snapshots'
+
+# ================================hosts modify====================
+alias hosts='sudo vi /etc/hosts'
+
+# ================================development env info====================
+alias ae='vi ~/.myzsh' #alias edit
+alias ar='source ~/.myzsh'  #alias reload
+
+# =============== IDE =========================
+alias idea='open -a /Applications/IntelliJ\ IDEA.app/'
+
+# ================================JVM====================
+export JAVA_6_HOME='/Library/Java/JavaVirtualMachines/1.6.0_65-b14-462.jdk/Contents/Home'
+export JAVA_7_HOME='/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home'
+export JAVA_8_HOME='/Library/Java/JavaVirtualMachies/jdk1.8.0_65.jdk/Cotets/Home'
+
+alias j6='export JAVA_HOME=$JAVA_6_HOME'
+alias j7='export JAVA_HOME=$JAVA_7_HOME'
+alias j8='export JAVA_HOME=$JAVA_8_HOME'
+
+# ==============Common command====================
+alias copypwd='pwd | pbcopy'
+alias cpwd='c ap'
+alias du='du -d 1 -h'
+alias axel='axel -n8'
+alias dirs="dirs -v | head | tr '\t' ' ' | colines" #增强版，增加颜色

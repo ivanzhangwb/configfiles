@@ -1,0 +1,65 @@
+#
+# Executes commands at the start of an interactive session.
+#
+# Authors:
+#   Sorin Ionescu <sorin.ionescu@gmail.com>
+#
+
+fpath=(/usr/local/share/zsh-completions $fpath)
+# Source Prezto.
+if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+fi
+
+# Customize to your needs...
+for config_file ($HOME/.dotfile/zsh/*.zsh) echo $config_file && source $config_file
+#share history command for all terminate
+setopt histignorealldups sharehistory
+
+# zsh-plugins
+# zsh 插件包括两个部分. zsh/plugin & zsh/prezto/module/下面
+for plugin_file ($HOME/.dotfile/zsh/plugin/*/*.zsh) source $plugin_file
+
+
+# Terminal colours (after installing GNU coreutils)
+NM="[\033[0;38m]" #means no background and white lines
+HI="[\033[0;37m]" #change this for letter colors
+HII="[\033[0;31m]" #change this for letter colors
+SI="[\033[0;33m]" #this is for the current directory
+IN="[\033[0m]"
+#
+#
+#
+#
+if [ "$TERM" != "dumb" ]; then
+    export LS_OPTIONS='--color=auto'
+    eval `dircolors ~/.dir_colors`
+fi
+#
+#
+
+
+if brew list | grep coreutils > /dev/null ; then
+    alias ls='ls -F --show-control-chars --color=auto'
+    eval `gdircolors -b <(gdircolors --print-database)`
+fi
+
+#Load themes from yadr and from user's custom prompts (themes) in ~/.zsh.prompts
+source $HOME/.dotfile/zsh/theme/*.zsh-theme
+
+bindkey -v                                          # Use vi key bindings
+bindkey '^r' history-incremental-search-backward    # [Ctrl-r] - Search backward incrementally for a specified string. The string may begin with ^ to anchor the search to the beginning of the line.
+bindkey "^[[A" history-search-backward
+bindkey "^[[B" history-search-forward
+bindkey '^p' history-search-backward
+bindkey '^n' history-search-forward
+
+
+# emacs style
+bindkey '^a' beginning-of-line
+bindkey '^e' end-of-line
+
+# Make numpad enter work
+bindkey -s "^[Op" "0"
+bindkey -s "^[Ol" "."
+bindkey -s "^[OM" "^M"

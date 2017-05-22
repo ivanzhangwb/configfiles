@@ -1,0 +1,5 @@
+pane	0	1	:vim	0	:-	1	:/Users/ivanzhangwb/work/code	1	vim	:vi /Users/ivanzhangwb/.bashrc
+pane	0	2	:zsh	1	:*	1	:/Library/Java/JavaVirtualMachines/1.6.0_65-b14-462.jdk/Contents/Home	1	zsh	:
+window	0	1	0	:-	b4bd,156x32,0,0,0
+window	0	2	1	:*	b4be,156x32,0,0,1
+state	0	

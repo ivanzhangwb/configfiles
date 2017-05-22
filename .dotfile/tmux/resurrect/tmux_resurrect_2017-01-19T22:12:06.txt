@@ -1,0 +1,27 @@
+pane	11	1	:tlive-pre-1	0	:-	1	:/Users/ivanzhangwb/.dotfile/vim	1	zsh	:
+pane	11	2	:tlive-pre-2	1	:*	1	:/Users/ivanzhangwb/.dotfile/zsh/oh-my-zsh/plugins/git	1	zsh	:
+pane	5	1	:zsh	1	:*	1	:/Users/ivanzhangwb/work/code	1	zsh	:
+pane	code	1	:tlive	0	:-	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tlive	1	zsh	:
+pane	code	2	:netty	0	:	1	:/Users/ivanzhangwb/work/code/netty	1	zsh	:
+pane	code	3	:distruptor	0	:	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tlive	1	zsh	:
+pane	code	4	:console	0	:	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tlive-console	1	zsh	:
+pane	code	5	:core	0	:	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tlive-core	1	zsh	:
+pane	code	6	:dubbo	0	:	1	:/Users/ivanzhangwb/work/code/ivanzhangwb.github.io	1	zsh	:
+pane	code	7	:github-blog	1	:*	1	:/Users/ivanzhangwb/work/code/ivanzhangwb.github.io	1	zsh	:
+pane	config	1	:vim|zsh|tmux	0	:-	1	:/Users/ivanzhangwb/.dotfile/zsh/oh-my-zsh/plugins/git	1	zsh	:
+pane	config	2	:logs	1	:*	1	:/Users/ivanzhangwb/Library/Caches/IntelliJIdea2016.3/tomcat/Unnamed_tlive-console_2/conf/Catalina/localhost	1	zsh	:
+pane	document	1	:tlive-docs	1	:*	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tlive-docs	1	zsh	:
+window	11	1	0	:-	b5be,173x42,0,0,1
+window	11	2	1	:*	b5bf,173x42,0,0,2
+window	5	1	1	:*	5b0f,173x42,0,0,10
+window	code	1	0	:-	b5c0,173x42,0,0,3
+window	code	2	0	:	b5c1,173x42,0,0,4
+window	code	3	0	:	b5c2,173x42,0,0,5
+window	code	4	0	:	b5c4,173x42,0,0,7
+window	code	5	0	:	5b10,173x42,0,0,11
+window	code	6	0	:	5b12,173x42,0,0,13
+window	code	7	1	:*	5cd3,130x34,0,0,14
+window	config	1	0	:-	b5c5,173x42,0,0,8
+window	config	2	1	:*	5b11,173x42,0,0,12
+window	document	1	1	:*	b5c6,173x42,0,0,9
+state	code	config

@@ -1,0 +1,9 @@
+pane	code	1	:zsh	1	:*	1	:/Users/ivanzhangwb/work/code/tmall_wireless	1	zsh	:
+pane	config	1	:dotfile	0	:-	1	:/Users/ivanzhangwb/.dotfile	1	zsh	:
+pane	config	2	:zsh	1	:*	1	:/Users/ivanzhangwb/work/code	1	zsh	:
+pane	document	1	:zsh	1	:*	1	:/Users/ivanzhangwb/work/code	1	zsh	:
+window	code	1	1	:*	5714,173x40,0,0,34
+window	config	1	0	:-	e7b1,143x39,0,0,22
+window	config	2	1	:*	e7b2,143x39,0,0,23
+window	document	1	1	:*	5716,173x40,0,0,36
+state	code	document

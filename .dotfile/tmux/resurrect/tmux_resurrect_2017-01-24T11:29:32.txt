@@ -1,0 +1,13 @@
+pane	2	1	:zsh	1	:*	1	:/Users/ivanzhangwb/work/code	1	zsh	:
+pane	=code=	1	:tliveconsole	0	:	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tlive-console	1	zsh	:
+pane	=code=	2	:tlive	0	:	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tlive	1	zsh	:
+pane	=code=	3	:tlivecore	0	:-	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tlive-core	1	zsh	:
+pane	=code=	4	:dubbo	1	:*	1	:/Users/ivanzhangwb/work/code/dubbo	1	zsh	:
+pane	=config=	1	:zsh	1	:*	1	:/Users/ivanzhangwb/work/code	1	zsh	:
+window	2	1	1	:*	b4c2,156x32,0,0,5
+window	=code=	1	0	:	b4bd,156x32,0,0,0
+window	=code=	2	0	:	b4be,156x32,0,0,1
+window	=code=	3	0	:-	b4bf,156x32,0,0,2
+window	=code=	4	1	:*	b4c0,156x32,0,0,3
+window	=config=	1	1	:*	b4c1,156x32,0,0,4
+state	2	=code=

@@ -1,0 +1,13 @@
+pane	config	1	:dotfile	1	:*	1	:/Users/ivanzhangwb/.dotfile	1	zsh	:
+pane	mycode	1	:aladdin	0	:-	1	:/Users/ivanzhangwb/work/code/tmall_wireless/aladdin	1	zsh	:
+pane	mycode	2	:tlive	0	:	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tlive	1	zsh	:
+pane	mycode	3	:docs	0	:	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tlive-docs	1	zsh	:
+pane	mycode	4	:config	1	:*	1	:/Users/ivanzhangwb/.dotfile/zsh	1	zsh	:
+pane	mycode	5	:dotfiles	0	:	1	:/Users/ivanzhangwb/.dotfile/tmux	1	zsh	:
+window	config	1	1	:*	e7b1,143x39,0,0,22
+window	mycode	1	0	:-	cefe,143x39,0,0,1
+window	mycode	2	0	:	cf01,143x39,0,0,4
+window	mycode	3	0	:	cf03,143x39,0,0,6
+window	mycode	4	1	:*	67b5,143x39,0,0,16
+window	mycode	5	0	:	67b6,143x39,0,0,17
+state	mycode	config

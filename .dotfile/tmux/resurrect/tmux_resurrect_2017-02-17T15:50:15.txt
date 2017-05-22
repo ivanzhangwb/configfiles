@@ -1,0 +1,37 @@
+pane	0	1	:zsh	1	:*	1	:/Users/ivanzhangwb/work/code	1	zsh	:
+pane	10	1	:zsh	1	:*	1	:/Users/ivanzhangwb/work/code	1	zsh	:
+pane	11	1	:zsh	1	:*	1	:/Users/ivanzhangwb/work/code	1	zsh	:
+pane	5	1	:zsh	1	:*	1	:/Users/ivanzhangwb/work/code	1	zsh	:
+pane	6	1	:zsh	1	:*	1	:/Users/ivanzhangwb/logs	1	zsh	:
+pane	7	1	:zsh	1	:*	1	:/Users/ivanzhangwb/work/code	1	zsh	:
+pane	8	1	:zsh	1	:*	1	:/Users/ivanzhangwb/work/code	1	zsh	:
+pane	9	1	:zsh	1	:*	1	:/Users/ivanzhangwb/work/code	1	zsh	:
+pane	code	1	:tlivestream	1	:*	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tlive-stream	1	zsh	:
+pane	code	2	:tlivemanager	0	:	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tlivemanager	1	zsh	:
+pane	code	3	:tlivecore	0	:-	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tlive-core	1	zsh	:
+pane	code	4	:tliveconsole	0	:	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tlive-console	1	zsh	:
+pane	code	5	:tlive	0	:	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tlive	1	zsh	:
+pane	code	6	:zsh	0	:	1	:/Users/ivanzhangwb/logs	1	zsh	:
+pane	code	7	:dubbo	0	:#	1	:/Users/ivanzhangwb/work/code/dubbo	1	zsh	:
+pane	code	8	:netty	0	:	1	:/Users/ivanzhangwb/work/code/netty	1	zsh	:
+pane	mix	1	:mix	1	:*	1	:/Users/ivanzhangwb/.dotfile/tmux/plugins/tmux-powerline/themes	1	vim	:vi /Users/ivanzhangwb/.tmux.conf.local
+pane	mix	2	:document	0	:-	1	:/private/tmp/tmux-powerline_ivanzhangwb	1	zsh	:
+window	0	1	1	:*	adbd,173x40,0,0,0
+window	10	1	1	:*	d6d3,172x40,0,0,24
+window	11	1	1	:*	d8d5,130x32,0,0,26
+window	5	1	1	:*	58d8,130x32,0,0,19
+window	6	1	1	:*	adbe,173x40,0,0,1
+window	7	1	1	:*	d8cf,130x32,0,0,20
+window	8	1	1	:*	d8d0,130x32,0,0,21
+window	9	1	1	:*	d8d2,130x32,0,0,23
+window	code	1	1	:*	b13f,130x32,0,0,2
+window	code	2	0	:	adc0,173x40,0,0,3
+window	code	3	0	:-	adc1,173x40,0,0,4
+window	code	4	0	:	adc2,173x40,0,0,5
+window	code	5	0	:	adc3,173x40,0,0,6
+window	code	6	0	:	5710,173x40,0,0,11
+window	code	7	0	:#	adc6,173x40,0,0,9
+window	code	8	0	:	570f,173x40,0,0,10
+window	mix	1	1	:*	5914,131x32,0,0,15
+window	mix	2	0	:-	58d5,130x32,0,0,16
+state	mix	code

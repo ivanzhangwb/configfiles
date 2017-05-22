@@ -1,0 +1,20 @@
+pane	11	1	:tlive-pre-1	0	:#-	1	:/Users/ivanzhangwb/.dotfile/vim	1	screen	:screen -R pub expect /Users/ivanzhangwb/bin/gossh ivanzhang.zhangwb@login1.et2.alibaba.org Wbz41088
+vi /Users/ivanzhangwb/.vimrc
+pane	11	2	:tlive-pre-2	1	:*	1	:/Users/ivanzhangwb/.dotfile/zsh/oh-my-zsh/plugins/git	1	ssh	:ssh ivanzhang.zhangwb@login1.et2.alibaba.org
+pane	code	1	:tlive	1	:*	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tlive	1	zsh	:
+pane	code	2	:netty	0	:	1	:/Users/ivanzhangwb/Library/Logs/IntelliJIdea2016.3	1	zsh	:
+pane	code	3	:distruptor	0	:	1	:/Users/ivanzhangwb/work/code/disruptor	1	zsh	:
+pane	code	4	:tlive-core	0	:	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tlive-core	1	zsh	:
+pane	code	5	:daily	0	:-	1	:/Users/ivanzhangwb/work/code	1	zsh	:
+pane	config	1	:vim|zsh|tmux	1	:*	1	:/Users/ivanzhangwb/.dotfile/zsh/oh-my-zsh/plugins/git	1	vim	:vi git.plugin.zsh
+pane	document	1	:tlive-docs	1	:*	1	:/Users/ivanzhangwb/work/code/tmall_wireless	1	zsh	:
+window	11	1	0	:#-	db11,173x42,0,0,41
+window	11	2	1	:*	db13,173x42,0,0,43
+window	code	1	1	:*	5b14,173x42,0,0,34
+window	code	2	0	:	5b17,173x42,0,0,37
+window	code	3	0	:	5b18,173x42,0,0,38
+window	code	4	0	:	db10,173x42,0,0,40
+window	code	5	0	:-	db12,173x42,0,0,42
+window	config	1	1	:*	db18,173x42,0,0,48
+window	document	1	1	:*	5b16,173x42,0,0,36
+state	11	code

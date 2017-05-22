@@ -1,0 +1,19 @@
+pane	11	1	:tlive-pre-1	1	:*	1	:/Users/ivanzhangwb/.dotfile/vim	1	zsh	:vi /Users/ivanzhangwb/.vimrc
+pane	11	2	:tlive-pre-2	0	:#!-	1	:/Users/ivanzhangwb/.dotfile/zsh/oh-my-zsh/plugins/git	1	zsh	:
+pane	code	1	:tlive	1	:*	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tlive	1	zsh	:(zsh)
+pane	code	2	:netty	0	:	1	:/Users/ivanzhangwb/Library/Logs/IntelliJIdea2016.3	1	zsh	:
+pane	code	3	:distruptor	0	:	1	:/Users/ivanzhangwb/work/code/disruptor	1	zsh	:
+pane	code	4	:tlive-core	0	:	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tlive-core	1	zsh	:
+pane	code	5	:daily	0	:-	1	:/Users/ivanzhangwb/work/code/test/wukong-user	1	zsh	:
+pane	config	1	:vim|zsh|tmux	1	:*	1	:/Users/ivanzhangwb/.dotfile/zsh/oh-my-zsh/plugins/git	1	vim	:vi git.plugin.zsh
+pane	document	1	:tlive-docs	1	:*	1	:/Users/ivanzhangwb/work/code/tmall_wireless	1	zsh	:
+window	11	1	1	:*	dcd1,130x34,0,0,41
+window	11	2	0	:#!-	db13,173x42,0,0,43
+window	code	1	1	:*	5cd4,130x34,0,0,34
+window	code	2	0	:	5cd7,130x34,0,0,37
+window	code	3	0	:	5cd8,130x34,0,0,38
+window	code	4	0	:	dcd0,130x34,0,0,40
+window	code	5	0	:-	dcd2,130x34,0,0,42
+window	config	1	1	:*	dcd8,130x34,0,0,48
+window	document	1	1	:*	5cd6,130x34,0,0,36
+state	code	config

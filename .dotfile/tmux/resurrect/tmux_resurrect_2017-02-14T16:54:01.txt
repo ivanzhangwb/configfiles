@@ -1,0 +1,31 @@
+pane	6	1	:zsh	1	:*	1	:/Users/ivanzhangwb/logs	1	zsh	:
+pane	code	1	:tlivestream	0	:	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tlive-stream	1	zsh	:
+pane	code	2	:tlivemanager	0	:	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tlivemanager	1	zsh	:
+pane	code	3	:tlivecore	1	:*	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tlive-core	1	zsh	:
+pane	code	4	:tliveconsole	0	:-	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tlive-console	1	zsh	:
+pane	code	5	:tlive	0	:	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tlive	0	zsh	:
+pane	code	5	:tlive	0	:	2	:/Users/ivanzhangwb/work/code	0	zsh	:
+pane	code	5	:tlive	0	:	3	:/Users/ivanzhangwb/work/code	1	zsh	:
+pane	code	6	:dubbo	0	:	1	:/Users/ivanzhangwb/work/code/dubbo	1	zsh	:
+pane	code	7	:netty	0	:	1	:/Users/ivanzhangwb/work/code/netty	1	zsh	:
+pane	code	8	:zsh	0	:	1	:/Users/ivanzhangwb/logs	1	zsh	:
+pane	config	1	:dotfile	0	:	1	:/Users/ivanzhangwb/.dotfile	1	zsh	:
+pane	config	2	:vim	0	:-	1	:/Users/ivanzhangwb/.dotfile/vim	1	zsh	:
+pane	config	3	:zsh	1	:*	1	:/Users/ivanzhangwb/.dotfile/zsh	1	zsh	:
+pane	mix	1	:mix	0	:-	1	:/Users/ivanzhangwb/Downloads	1	zsh	:
+pane	mix	2	:document	1	:*	1	:/Users/ivanzhangwb/work/code/tmall_wireless/tlive-docs	1	zsh	:
+window	6	1	1	:*	5715,173x40,0,0,16
+window	code	1	0	:	5714,173x40,0,0,15
+window	code	2	0	:	5718,173x40,0,0,19
+window	code	3	1	:*	adc5,173x40,0,0,8
+window	code	4	0	:-	adc6,173x40,0,0,9
+window	code	5	0	:	b784,173x40,0,0[173x20,0,0,6,173x19,0,21{86x19,0,21,22,86x19,87,21,24}]
+window	code	6	0	:	570f,173x40,0,0,10
+window	code	7	0	:	5710,173x40,0,0,11
+window	code	8	0	:	5717,173x40,0,0,18
+window	config	1	0	:	adc4,173x40,0,0,7
+window	config	2	0	:-	5711,173x40,0,0,12
+window	config	3	1	:*	5712,173x40,0,0,13
+window	mix	1	0	:-	5713,173x40,0,0,14
+window	mix	2	1	:*	5716,173x40,0,0,17
+state	code	6
